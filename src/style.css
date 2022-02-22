@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+body {
+    background-color: #2c303d;
+}
+
+#header {
+    background-color: rgb(29, 29, 58);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 120px; */
+    padding: 12px;
+}
+
+#header #pageName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: #555555; */
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+#header #pageName img {
+    width: 80px;
+}
+
+#header #pageName h1 {
+    margin-left: 16px;
+    font-size: 36px;
+    transition: 200ms;
+    color: rgb(147, 222, 224);
+}
+
+#header .navLinksList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: #56ca7c; */
+    padding: 0 8px;
+    padding: 12px;
+}
+
+#header .navLinksList .navItem {
+    margin: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+#header .navLinksList .navItem:hover {
+    color: rgb(167, 167, 247);
+    font-size: 22px;
+}
+
+#mainContent {
+    padding: 48px;
+    color: #fff;
+    background-image: url(./imgs/logo192.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 150px) center;
+    background-size: 300px;
+}
+
+#mainContent .title {
+    font-size: 44px;
+    margin-bottom: 32px;
+}
+
+#mainContent .list {
+    list-style-type: disc;
+    padding-left: 56px;
+}
+
+#mainContent .list > li {
+    list-style-type: disc;
+    
+    font-size: 24px;
+    line-height: 40px;
+}
+
+#mainContent .list > li::marker {
+    font-size: 36px;
+    color: rgb(147, 222, 224);
+}
+
+#footer {
+    color: #fff;
+    margin: 0;
+    background-color: #555555;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*test:
+
+Đề tài nghiên cứu dạng thực nghiệm: 
+    Là thực hiện nguyên cứu trong phòng thí nghiệm phân tích các mẫu để đánh giá kết quả.
+
+Literature - Đề tài nghiên cứu dạng hiện trạng:
+    Là dự án các nghiên cứu bằng cách đối chiếu dữ liệu , tập hợp để đưa ra một tập dữ liệu và kết luận đồng nhất , cách này thường bị sai sót nhiều do không có thao tác phân tích dữ liệu
+
+Meta-Analysis:
+    Danjg đề tài siêu phân tích là một phương pháp nghiên cứu sử dụng kĩ thuật thống kê sác xuất nhằm kết hợp định lượng những dữ liệu từ nhiều nghiên cứu thuộc về cùng một chủ đề chung, trên cơ sở đó đánh giá thực trạng dựa trên minh chứng hay xác định tính hiệu quả của cách thức can thiệp hoặc cách thức tác động.
+
+Intervention - Đề tài nghiên cứu đạng can dự::after
+    Là dạng đề tài có sự tham gia của các ứng viên khác trong công cuộc nghiên cứu
+
+Questionnaire - Đề tài nghiên cứu dạng khảo sát:
+    Là dạng đề tài được lấy dữ liệu từ những người tham gia thông qua các câu hỏi và câu trả lời có sẵn
+
+Data-analysis - Đề tài nghiên cứu dạng phân tích dữ liệu: 
+   Dạng đề tài với rủi ro ít nhờ nghiên cứu sử dụng những dữ liệu của các nghiên cứu, thử nghiệm trước đó
+   
+Tụi em thích nhất đề tài dạng hiện trạng ạ;*/
+
