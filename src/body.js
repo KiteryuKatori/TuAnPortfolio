@@ -1,6 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
+import FaAtom from 'react-icons/fa';
+
+
 export default function Body() {
     return (
         <div id="body">
@@ -14,12 +17,13 @@ export default function Body() {
                 </div>
                 <div className="txtContainer">
                     <div class="title">
-                        <h3>I am</h3>
+                        <h2>Hello, my name is</h2>
                         <h1>Phan Vũ Tuấn Anh</h1>
                     </div>
                     <div class="description">
-                        <p>I'm a student at HCMUE</p>
-                        <p>a short-ass shitty piece of self-description paragraph</p>
+                        <h3>And I am:</h3>
+                        <p>A student, major in Information Technology at Ho Chi Minh's University of Education.</p>
+                        <p><i className="ti-info-alt"></i>A self-taught website developer.</p>
                     </div>
                 </div>
             </div>

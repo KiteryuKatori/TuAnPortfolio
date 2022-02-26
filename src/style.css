@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
     font-family: 'Nunito';
 }
 
@@ -11,14 +12,15 @@ body {
     background-color: #2c303d;
 }
 
+/* HEADER HEADER HEADER */
+
 #header {
     background-color: rgb(29, 29, 58);
-    color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* height: 120px; */
+    min-height: 80px;
     padding: 12px;
 }
 
@@ -31,15 +33,11 @@ body {
     cursor: pointer;
 }
 
-#header #pageName img {
-    width: 80px;
-}
-
 #header #pageName h1 {
-    margin-left: 16px;
+    margin-left: 12px;
     font-size: 36px;
     transition: 200ms;
-    color: rgb(147, 222, 224);
+    color: rgb(204, 245, 247);
 }
 
 #header .navLinksList {
@@ -47,87 +45,97 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background-color: #56ca7c; */
-    padding: 0 8px;
     padding: 12px;
+    padding-right: 0px;
+    /* background-color: beige; */
 }
 
 #header .navLinksList .navItem {
     margin: 0 8px;
-    font-size: 20px;
     cursor: pointer;
     transition: 250ms;
 }
 
-#header .navLinksList .navItem:hover {
-    color: rgb(167, 167, 247);
-    font-size: 22px;
+#header .navLinksList .navItem button {
+    background-color: #00000000;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 4px;
+    transition: 250ms;
 }
 
-#mainContent {
-    padding: 48px;
-    color: #fff;
-    background-image: url(./imgs/logo192.png);
-    background-repeat: no-repeat;
-    background-position: calc(100% + 150px) center;
-    background-size: 300px;
+#header .navLinksList .navItem button:hover {
+    color: rgb(109, 109, 151);
 }
 
-#mainContent .title {
-    font-size: 44px;
-    margin-bottom: 32px;
-}
 
-#mainContent .list {
-    list-style-type: disc;
-    padding-left: 56px;
-}
-
-#mainContent .list > li {
-    list-style-type: disc;
-    
-    font-size: 24px;
-    line-height: 40px;
-}
-
-#mainContent .list > li::marker {
-    font-size: 36px;
-    color: rgb(147, 222, 224);
-}
-
-#footer {
-    color: #fff;
-    margin: 0;
-    background-color: #555555;
-    height: 60px;
+.Section {
+    background-color: rgba(139, 248, 154, 0);
+    padding: 16px 36px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-/* tình hình là em cần commit 1 vài files lên repo nhưng em lỡ xài "git add ." nên là nó stage all mất. Em muốn huỷ stage ấy hoặc loại bớt file ra khỏi stage đó thì nên làm sao vậy anh ơi?
+#Profile .imgContainer {
+    min-width: 320px;
+    width: 320px;
+    height: 320px;
+    border-radius: 320px;
+    background-color: #000;
+    overflow: hidden;
+}
 
-em đã lỡ commit ngay sau đó luôn rồi á anh, và giờ em mà dùng "git revert" thì sẽ hơi toang vì em có chỉnh sửa khá nhiều trước khi commit lần này */
+#Profile .imgContainer img {
+    height: 440px;
+    transform: translateX(-12.5%) translateY(-15%);
+}
 
-/*test:
+#Profile .txtContainer {
+    background-color: #c78aad00;
+    padding: 24px;
+}
 
-Đề tài nghiên cứu dạng thực nghiệm: 
-    Là thực hiện nguyên cứu trong phòng thí nghiệm phân tích các mẫu để đánh giá kết quả.
+#Profile .txtContainer .title {
+    /* background-color: #e7e6a1; */
+    padding: 12px 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
 
-Literature - Đề tài nghiên cứu dạng hiện trạng:
-    Là dự án các nghiên cứu bằng cách đối chiếu dữ liệu , tập hợp để đưa ra một tập dữ liệu và kết luận đồng nhất , cách này thường bị sai sót nhiều do không có thao tác phân tích dữ liệu
+#Profile .txtContainer .title h1 {
+    position: relative;
+}
 
-Meta-Analysis:
-    Danjg đề tài siêu phân tích là một phương pháp nghiên cứu sử dụng kĩ thuật thống kê sác xuất nhằm kết hợp định lượng những dữ liệu từ nhiều nghiên cứu thuộc về cùng một chủ đề chung, trên cơ sở đó đánh giá thực trạng dựa trên minh chứng hay xác định tính hiệu quả của cách thức can thiệp hoặc cách thức tác động.
+#Profile .txtContainer .title h1:after {
+    content: "Fan Voo Twuon Anh";
+    position: absolute;
+    background-color: #000;
+    font-size: 24px;
+    top: 0;
+    left: 0;
+    display: none;
+}
 
-Intervention - Đề tài nghiên cứu đạng can dự::after
-    Là dạng đề tài có sự tham gia của các ứng viên khác trong công cuộc nghiên cứu
+#Profile .txtContainer .description {
+    /* background-color: #a1e7c6; */
+    padding: 8px 12px;
+    line-height: 24px;
+}
 
-Questionnaire - Đề tài nghiên cứu dạng khảo sát:
-    Là dạng đề tài được lấy dữ liệu từ những người tham gia thông qua các câu hỏi và câu trả lời có sẵn
+#Profile .txtContainer .description > p {
+    padding-left: 16px;
+}
 
-Data-analysis - Đề tài nghiên cứu dạng phân tích dữ liệu: 
-   Dạng đề tài với rủi ro ít nhờ nghiên cứu sử dụng những dữ liệu của các nghiên cứu, thử nghiệm trước đó
-   
-Tụi em thích nhất đề tài dạng hiện trạng ạ;*/
 
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 125, 125);
+    height: 50px;
+}

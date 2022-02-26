@@ -5,17 +5,17 @@ import ReactDOM from "react-dom"
 import "./style.css"
 
 import Header from "./header.js"
-import MainContent from "./mainContent"
+import Body from "./body"
 import Footer from "./footer"
 
 
 function Page() {
     return (
-        <div>
+        <>
             <Header/>
-            <MainContent/>
+            <Body/>
             <Footer/>
-        </div>
+        </>
     )
 }
 
