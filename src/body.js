@@ -1,8 +1,7 @@
-import React from "react"
-import ReactDOM from "react-dom"
-
-import FaAtom from 'react-icons/fa';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import {AiFillInfoCircle} from "react-icons/ai";
+import { IconContext } from "react-icons";
 
 export default function Body() {
     return (
@@ -20,13 +19,17 @@ export default function Body() {
                         <h2>Hello, my name is</h2>
                         <h1>Phan Vũ Tuấn Anh</h1>
                     </div>
+                    <IconContext.Provider 
+                        value={{color: '#fff', size: '16px', position: 'absolute', top: '16px'}}>
                     <div class="description">
                         <h3>And I am:</h3>
-                        <p>A student, major in Information Technology at Ho Chi Minh's University of Education.</p>
-                        <p><i className="ti-info-alt"></i>A self-taught website developer.</p>
+                        <p><AiFillInfoCircle />A student, major in Information Technology at Ho Chi Minh's University of Education.</p>
+                        <p><AiFillInfoCircle />A self-taught website developer.</p>
                     </div>
+                    </IconContext.Provider>
                 </div>
             </div>
         </div>    
     )
 }
+

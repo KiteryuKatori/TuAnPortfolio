@@ -127,6 +127,7 @@ body {
 }
 
 #Profile .txtContainer .description > p {
+    position: relative;
     padding-left: 16px;
 }
 
