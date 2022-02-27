@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ProfileSection from "./bodyComponents/profile";
-import SkillsandExperiencesSection from "./bodyComponents/SnE";
+import ProfileSection from "./components/profile"
+import SkillsandExperiencesSection from "./components/SnE";
 
 export default function Body() {
     return (
