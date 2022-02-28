@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 // import "../public/logo192.png"
-import "./style.css"
+import "./styles/style.css"
 
 import Header from "./header.js"
 import Body from "./body"

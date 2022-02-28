@@ -10,52 +10,49 @@ export default function Footer() {
 }
 
 
-/*
-PHẦN 2:
 
-"như các bạn đã biết về  thị trường và kinh tế thị trường thông qua phần thuyết trình của bạn Hải Bình, sau đây chính là ưu điểm của nền kinh tế thị trường"
+// PHẦN 2:
 
-Ưu điểm kinh tế thị trường
-    [- Trong KTTT, nếu nhu cầu của hàng hoá của người dân cao hơn so với nguồn cung từ các xí nghiệp, nhà máy hay các nhà phân phối bán lẻ, giá cả, tỷ giá hàng hóa sẽ cao lên, lợi nhuận từ đó cũng tăng, là động lực để các doanh nghiệp, cơ sở sản xuất tăng nguồn cung.]
+// "như các bạn đã biết về thị trường và kinh tế thị trường thông qua phần thuyết trình của bạn Hải Bình, sau đây chính là ưu điểm của nền kinh tế thị trường"
 
-        + Khi đó, nếu các doanh nghiệp, cơ sở có cơ chế sản xuất hiện quả thì tỷ suất lợi nhuận sẽ còn tăng cao rất nhiều, khi đó, họ lại càng có cơ sở để tăng nguồn lực, nâng cao chất lượng cơ sơ vật chất đến cho những nơi có hiệu quả sản xuất tốt hơn
+// Ưu điểm kinh tế thị trường
+//     [- Trong KTTT, nếu nhu cầu của hàng hoá của người dân cao hơn so với nguồn cung từ các xí nghiệp, nhà máy hay các nhà phân phối bán lẻ, giá cả, tỷ giá hàng hóa sẽ cao lên, lợi nhuận từ đó cũng tăng, là động lực để các doanh nghiệp, cơ sở sản xuất tăng nguồn cung.]
 
-        + Khi đó, nếu các doanh nghiệp, cơ sở có cơ chế sản xuất hiện quả thì tỷ suất lợi nhuận sẽ còn tăng cao rất nhiều, khi đó, họ lại càng có cơ sở để tăng nguồn lực, nâng cao chất lượng cơ sơ vật chất đến cho những nơi có hiệu quả sản xuất tốt hơn
+//         + Khi đó, nếu các doanh nghiệp, cơ sở có cơ chế sản xuất hiện quả thì tỷ suất lợi nhuận sẽ còn tăng cao rất nhiều, khi đó, họ lại càng có cơ sở để tăng nguồn lực, nâng cao chất lượng cơ sơ vật chất đến cho những nơi có hiệu quả sản xuất tốt hơn
 
-        và ngược lại -> nếu không hiệu quả, sức cạnh tranh kém thì sẽ bị đào thải khỏi thị trường
+//         + Khi đó, nếu các doanh nghiệp, cơ sở có cơ chế sản xuất hiện quả thì tỷ suất lợi nhuận sẽ còn tăng cao rất nhiều, khi đó, họ lại càng có cơ sở để tăng nguồn lực, nâng cao chất lượng cơ sơ vật chất đến cho những nơi có hiệu quả sản xuất tốt hơn
 
-    - Nền kinh tế thị trường luôn có sự cạnh tranh, vì vậy muốn tồn tại phải luôn có giải pháp cải tiến, hướng đi để phát triển doanh nghiệp. Kinh tế thị trường cũng là nơi thanh lọc những người thực sự có năng lực, đào thải những ai yếu kém.
+//         và ngược lại -> nếu không hiệu quả, sức cạnh tranh kém thì sẽ bị đào thải khỏi thị trường
 
-    - Nền kinh tế thị trường tạo xu thế liên doanh, liên kết đẩy mạnh giao lưu kinh tế giữa các nước. 
+//     - Nền kinh tế thị trường luôn có sự cạnh tranh, vì vậy muốn tồn tại phải luôn có giải pháp cải tiến, hướng đi để phát triển doanh nghiệp. Kinh tế thị trường cũng là nơi thanh lọc những người thực sự có năng lực, đào thải những ai yếu kém.
 
-        + Việc được tiếp xúc, chuyển giao công nghệ sản xuất, công nghệ quản lý từ các [nước phát triển] sẽ thúc đẩy các nước [đang] phát triển có những giải pháp tích cực cho kinh tế nước nhà.
+//     - Nền kinh tế thị trường tạo xu thế liên doanh, liên kết đẩy mạnh giao lưu kinh tế giữa các nước. 
 
-        + Mức độ thị trường hóa nền kinh tế có thể được coi là tiêu chí trong xác định điều kiện thương mại giữa hai bên.
+//         + Việc được tiếp xúc, chuyển giao công nghệ sản xuất, công nghệ quản lý từ các [nước phát triển] sẽ thúc đẩy các nước [đang] phát triển có những giải pháp tích cực cho kinh tế nước nhà.
 
-    - Ngoài ra, nền kinh tế thị trường cũng mang đến nhiều việc làm hơn cho người lao động.
+//         + Mức độ thị trường hóa nền kinh tế có thể được coi là tiêu chí trong xác định điều kiện thương mại giữa hai bên.
+
+//     - Ngoài ra, nền kinh tế thị trường cũng mang đến nhiều việc làm hơn cho người lao động.
     
 
+// "Đã lói đến Ưu là phải đụng tới phần nhược"
+// nhược điểm của kinh tế thị trường
+//     - Cơ chế phân bổ nguồn lực trong nền kinh tế thị trường có thể là nguyên nhân gây bất bình đẳng trong xã hội.
+//     Những người chiếm ưu thế trong kinh doanh sản xuất sẽ ngày càng có nhiều tài sản, quyền lực và ngược lại, những người không chiếm ưu thế sẽ sống cơ cực, rất khó khăn.
 
-"Đã lói đến Ưu là phải đụng tới phần nhược"
-nhược điểm của kinh tế thị trường
-    - Cơ chế phân bổ nguồn lực trong nền kinh tế thị trường có thể là nguyên nhân gây bất bình đẳng trong xã hội.
-    Những người chiếm ưu thế trong kinh doanh sản xuất sẽ ngày càng có nhiều tài sản, quyền lực và ngược lại, những người không chiếm ưu thế sẽ sống cơ cực, rất khó khăn.
-
-    - Đó cũng là lý do dẫn đến sự phân chia giai cấp giữa thống trị và bị trị. Sự phân chia giai cấp cũng dẫn đến những bất ổn trong đời sống xã hội.
+//     - Đó cũng là lý do dẫn đến sự phân chia giai cấp giữa thống trị và bị trị. Sự phân chia giai cấp cũng dẫn đến những bất ổn trong đời sống xã hội.
     
-        + Gia tăng khoảng cách giữa giàu và nghèo dẫn tới bất bình đẳng trong xã hội. Sự phân hoá giàu - nghèo ở Mỹ đang cao kỷ lục trong lịch sử nước này. 
-        + Theo các số liệu thống kê mới công bố, chỉ riêng trong năm ngoái, chênh lệch giàu - nghèo giữa nhóm 20% dân số giàu nhất và 20% dân số nghèo nhất đã tăng từ 13.6 lần lên thành 14.5 lần. Nhóm 20% dân số giàu nhất chiếm tới 49.4% tổng thu nhập, trong khi nhóm 20% dân số nghèo nhất chỉ chiếm có 3.4% tổng thu nhập. Khủng hoảng kinh tế đã dồn gánh nặng lên những người nghèo nhiều hơn lên những người giàu có. 
+//         + Gia tăng khoảng cách giữa giàu và nghèo dẫn tới bất bình đẳng trong xã hội. Sự phân hoá giàu - nghèo ở Mỹ đang cao kỷ lục trong lịch sử nước này. 
+//         + Theo các số liệu thống kê mới công bố, chỉ riêng trong năm 2009, chênh lệch giàu - nghèo giữa nhóm 20% dân số giàu nhất và 20% dân số nghèo nhất đã tăng từ 13.6 lần lên thành 14.5 lần. Nhóm 20% dân số giàu nhất chiếm tới 49.4% tổng thu nhập, trong khi nhóm 20% dân số nghèo nhất chỉ chiếm có 3.4% tổng thu nhập. Khủng hoảng kinh tế đã dồn gánh nặng lên những người nghèo nhiều hơn lên những người giàu có. 
 
-    - Ngoài ra nếu không có sự can thiệp của Nhà nước thì việc tăng giá, giảm chất lượng sản phẩm để tăng thêm lợi nhuận sẽ xảy ra, gây tổn thất lớn cho nền kinh tế nói chung, người tiêu dùng nói riêng.
-    - Liên hệ thực tế: nếu sau khoảng thời gian dài không còn có sự cạnh tranh, những người có tiềm lực mạnh sẽ thâu tóm thị trường, nền kinh tế có thể chỉ do một số ít người thao túng, họ cũng chi phối thị trường theo ý mình.
+//     - Ngoài ra nếu không có sự can thiệp của Nhà nước thì việc tăng giá, giảm chất lượng sản phẩm để tăng thêm lợi nhuận sẽ xảy ra, gây tổn thất lớn cho nền kinh tế nói chung, người tiêu dùng nói riêng.
+//     - Liên hệ thực tế: nếu sau khoảng thời gian dài không còn có sự cạnh tranh, những người có tiềm lực mạnh sẽ thâu tóm thị trường, nền kinh tế có thể chỉ do một số ít người thao túng, họ cũng chi phối thị trường theo ý mình.
 
-    - Cuối cùng, sự chênh lệch về cung – cầu sẽ là hệ quả dẫn đến khủng hoảng thừa, thất nghiệp và lạm phát.
-    - Các doanh nghiệp không bán được hàng để thu hồi vốn dần sẽ phá sản gây khủng hoảng kinh tế….
-
-*/
+//     - Cuối cùng, sự chênh lệch về cung – cầu sẽ là hệ quả dẫn đến khủng hoảng thừa, thất nghiệp và lạm phát.
+//     - Các doanh nghiệp không bán được hàng để thu hồi vốn dần sẽ phá sản gây khủng hoảng kinh tế….
 
 
-
+// Trách nhiệm và vai trò của các chủ thể 
 
 // 1.Trách nhiệm xã hội là gì?
 //       Trách nhiệm xã hội là các cam kết của cá nhân, tổ chức trong việc thực hiện các nghĩa vụ đối với xã hội. Đây là vấn đề hết sức quan trọng vì nó ảnh hưởng đến sự tồn tại và phát triển của xã hội. Khi thực hiện tốt trách nhiệm xã hội, cá nhân, tổ chức không chỉ khẳng định được vị thế, uy tín của mình với toàn thể xã hội mà còn thu hút thêm nhiều đối tượng khách hàng, từ đó giúp thúc đẩy quy mô, phạm vi kinh doanh của cá nhân, tổ chức đó.
@@ -84,3 +81,4 @@ nhược điểm của kinh tế thị trường
 //      -Vai trò kinh tế: Nhà Nước thực hiện chức năng quản lý nhà nước về kinh tế, đồng thời thực hiện những biện pháp để khắc phục những khuyết tật của thị trường.
 //             +Một mặt, Nhà Nước thực hiện quản trị phát triển nền kinh tế thông qua việc tạo lập môi trường kinh tế tốt nhất cho các chủ thể kinh tế phát huy sức sáng tạo của họ.
 //             +Cùng với đó, nhà nước còn sử dụng các công cụ kinh tế để khắc phục các khuyết tật của nền kinh tế thị trường, làm cho nền kinh tế thị trường hoạt động hiệu quả.
+
