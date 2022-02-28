@@ -1,7 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
-
-import {MdLanguage } from "react-icons/md"
 
 export default function Header() {
     return (

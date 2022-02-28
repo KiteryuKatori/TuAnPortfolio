@@ -17,7 +17,7 @@ export default function BasicInfo() {
                 <IconContext.Provider 
                     value={{color: '#fff', size: '16px', position: 'absolute', top: '16px'}}
                     >
-                    <div class="description">
+                    <div className="description">
                         <h3>And I am currently:</h3>
                         <p><AiFillInfoCircle />A freshman at Ho Chi Minh's University of Education, major in Information Technology.</p>
                         <p><AiFillInfoCircle />A self-taught developer.</p>

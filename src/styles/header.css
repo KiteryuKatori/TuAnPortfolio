@@ -58,5 +58,6 @@
 }
 
 #header .utilitiesNav .navItem button:hover {
-    color: rgb(109, 109, 151);
+    color: rgb(11, 11, 104);
+    background-color: rgb(201, 200, 252);
 }

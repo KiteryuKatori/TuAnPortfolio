@@ -1,0 +1,6 @@
+@import "./body/basicInfo.css";
+
+#Profile {
+    display: flex;
+    flex-direction: column;
+}
