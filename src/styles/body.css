@@ -1,4 +1,7 @@
 @import "./body/basicInfo.css";
+@import "./body/extInfo.css";
+@import "./body/SnE.css";
+@import "./body/projects.css";
 
 #Profile {
     display: flex;
