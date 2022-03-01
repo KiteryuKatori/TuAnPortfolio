@@ -1,9 +1,22 @@
-@import "./body/basicInfo.css";
-@import "./body/extInfo.css";
+@import "./body/profile.css";
 @import "./body/SnE.css";
 @import "./body/projects.css";
 
-#Profile {
-    display: flex;
-    flex-direction: column;
+.SectionTitle {
+    position: relative;
+    margin-bottom: 36px;
+}
+
+ .SectionTitle::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(241, 243, 252);
+    width: 24rem;
+    height: 4px;
+    left: calc( (100% - 24rem)/2 );
+    bottom: -20px;
+}
+
+.SectionTitle h1 {
+    text-transform: uppercase;
 }

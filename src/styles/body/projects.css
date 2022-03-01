@@ -1,3 +1,22 @@
 #Projects {
     background-color: cadetblue;
 }
+
+.sortBtnList {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    list-style-type: none;
+    padding: 24px 0px;
+}
+
+.sortBtnList .sortBtn button{
+    background-color: rgb(255, 162, 101);
+    text-align: center;
+    border: none;
+    width: 80px;
+    height: 36px;
+}
+
