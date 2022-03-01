@@ -20,8 +20,14 @@
 #basicInfo .txtContainer {
     display: inline-block;
     background-color: #c78aad00;
-    padding: 24px;
+    width: 75%;
+    padding: 32px;
+    max-width: 720px;
+    margin-left: 48px;
+    vertical-align: sub;
 }
+
+/* 1180 width will be wrapped */
 
 #basicInfo .txtContainer .title {
     position: relative;
