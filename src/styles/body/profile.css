@@ -131,6 +131,17 @@
     z-index: -1;
 }
 
+#extraInfo button:active {
+    transition: 50ms;
+    color: azure;
+    border: 4px solid rgb(44, 70, 105);
+}
+
+#extraInfo button:active:after {
+    transition: 50ms;
+    background-color: rgb(44, 70, 105);
+}
+
 #extraInfo .wrapper {
     height: fit-content;
     transition: 300ms;

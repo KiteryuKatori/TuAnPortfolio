@@ -1,22 +1,62 @@
 #Projects {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 .sortBtnList {
-    background-color: bisque;
+    /* background-color: bisque; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 500px;
+    width: 600px;
     list-style-type: none;
     padding: 24px 0px;
 }
 
-.sortBtnList .sortBtn button{
-    background-color: rgb(255, 162, 101);
+.sortBtnList .sortBtn button {
+    background-color: #2e5061;
     text-align: center;
     border: none;
-    width: 80px;
-    height: 36px;
+    width: 120px;
+    padding: 12px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 250ms;
+    font-size: 20px;
+}
+
+.sortBtnList .sortBtn button:hover {
+    background-color: rgb(142, 153, 255);
+
+}
+
+.pjContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    gap: 24px;
+    max-width: 1160px;
+}
+
+.pjContainer .cell {
+    background-color: rgb(4, 22, 48);
+    flex-basis: 150px;
+    flex-grow: 3;
+    flex-shrink: 1;
+    height: 320px;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.pjContainer .cell:hover {
+    background-color: rgb(61, 89, 129);
+
+}
+
+.pjContainer .cell .cellHeader {
+    background-color: rgb(24, 48, 82);
+    height: 150px;
+    margin-bottom: 16px;
 }
 

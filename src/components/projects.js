@@ -29,6 +29,39 @@ export default function ProjectsSection() {
                         <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sit.</div>
                     </div>
                 </div>
+                <div className="cell">
+                    <div className="cellHeader">
+                        <div className="imgContainer">
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className="cellContent">
+                        <div className="title">TicTacToe</div>
+                        <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sit.</div>
+                    </div>
+                </div>
+                <div className="cell">
+                    <div className="cellHeader">
+                        <div className="imgContainer">
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className="cellContent">
+                        <div className="title">TicTacToe</div>
+                        <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sit.</div>
+                    </div>
+                </div>
+                <div className="cell">
+                    <div className="cellHeader">
+                        <div className="imgContainer">
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className="cellContent">
+                        <div className="title">TicTacToe</div>
+                        <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sit.</div>
+                    </div>
+                </div>
             </div>
         </div>  
     )
