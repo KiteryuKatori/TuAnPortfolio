@@ -1,7 +1,7 @@
 {
   "main.css": "/TuAnPortfolio/static/css/main.abe47a65.chunk.css",
-  "main.js": "/TuAnPortfolio/static/js/main.2a73daf8.chunk.js",
-  "main.js.map": "/TuAnPortfolio/static/js/main.2a73daf8.chunk.js.map",
+  "main.js": "/TuAnPortfolio/static/js/main.832b93f8.chunk.js",
+  "main.js.map": "/TuAnPortfolio/static/js/main.832b93f8.chunk.js.map",
   "static/js/1.43d454ab.chunk.js": "/TuAnPortfolio/static/js/1.43d454ab.chunk.js",
   "static/js/1.43d454ab.chunk.js.map": "/TuAnPortfolio/static/js/1.43d454ab.chunk.js.map",
   "runtime~main.js": "/TuAnPortfolio/static/js/runtime~main.5a0faf0a.js",
@@ -13,6 +13,6 @@
   "static/media/Playground.png": "/TuAnPortfolio/static/media/Playground.2f2961e8.png",
   "static/css/main.abe47a65.chunk.css.map": "/TuAnPortfolio/static/css/main.abe47a65.chunk.css.map",
   "index.html": "/TuAnPortfolio/index.html",
-  "precache-manifest.6b3678dd9d4011c77d93974dd05000dd.js": "/TuAnPortfolio/precache-manifest.6b3678dd9d4011c77d93974dd05000dd.js",
+  "precache-manifest.3cf2f8a2def8128e0864adaf91ae9457.js": "/TuAnPortfolio/precache-manifest.3cf2f8a2def8128e0864adaf91ae9457.js",
   "service-worker.js": "/TuAnPortfolio/service-worker.js"
 }
