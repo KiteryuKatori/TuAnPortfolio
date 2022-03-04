@@ -41,7 +41,7 @@ export default function ProjectsSection() {
                     </div>
                     <div className="cellContent">
                         <h2 className="title">Donation Box Foundation</h2>
-                        <p className="description">A non-profit charity Organization, created by a group of students to provide helps for the suffered people from the Covid-19 Pandemic.</p>
+                        <p className="description">A non-profit charity Organization, created by a group of students in hope of providing helps to the suffered ones from the Covid-19 Pandemic.</p>
                     </div>
                 </div>
                 <div className="cell">
