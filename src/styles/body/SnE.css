@@ -1,4 +1,16 @@
 #SnE {
-    /* background-color: rgb(95, 160, 104); */
-    border: 4px solid rgb(83, 84, 138);
+    background-color: rgb(95, 160, 104);
+    /* border: 4px solid rgb(83, 84, 138); */
+}
+
+#SnE .container {
+    background-color: brown;
+    width: 60%;
+    padding: 36px;
+    margin-top: 20px;
+}
+
+#SnE .skill {
+    font-size: 22px;
+    font-weight: 700;
 }

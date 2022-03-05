@@ -33,7 +33,7 @@ export default function ProjectsSection() {
             </ul>
 
             <div className="pjContainer">
-                <div className="cell">
+                <a className="cell" href="https://donationboxfoundation.com">
                     <div style={{ backgroundColor: '#ffffff'}} className="cellHeader">
                         <div className="imgContainer">
                             <img style={{ transform: 'translateX(-50%), translateY(-50%)' }} src={DBFLogo} alt="Donation Box Foundation's Logo"></img>
@@ -43,8 +43,8 @@ export default function ProjectsSection() {
                         <h2 className="title">Donation Box Foundation</h2>
                         <p className="description">A non-profit charity Organization, created by a group of students in hope of providing helps to the suffered ones from the Covid-19 Pandemic.</p>
                     </div>
-                </div>
-                <div className="cell">
+                </a>
+                <a className="cell" href="https://kiteryukatori.github.io/Lo_To-Demo">
                     <div className="cellHeader">
                         <div className="imgContainer">
                             <img style={{ transform: 'translateX(-50%) translateY(-50%) scale(1.5)' }} src={Loto} alt="Loto(Mobile)'s gameplay"></img>
@@ -54,8 +54,8 @@ export default function ProjectsSection() {
                         <h2 className="title">Loto</h2>
                         <p className="description">One of the most iconic game in Viet Nam on Tet holidays. Its like Bingo, when you have to listen to a number and scan the paper to fill them in(if they exist on the paper) </p>
                     </div>
-                </div>
-                <div className="cell">
+                </a>
+                <a className="cell" href="https://kiteryukatori.github.io/TicTacToe">
                     <div className="cellHeader">
                         <div className="imgContainer">
                             <img style={{ transform: 'translateX(-50%), translateY(-50%)' }} src={TTT} alt="Tic Tac Toe's gameplay"></img>
@@ -63,10 +63,10 @@ export default function ProjectsSection() {
                     </div>
                     <div className="cellContent">
                         <h2 className="title">Tic Tac Toe</h2>
-                        <p className="description">A well-known game for it's name. Many have made replicas of this game and so do I.</p>
+                        <p className="description">A well-known game for it's name. With the help of Kyle Cook a.k.a Web Dev Simplified's tutorial, I was able to made this game.</p>
                     </div>
-                </div>
-                <div className="cell">
+                </a>
+                <a className="cell" href="https://kiteryukatori.github.io/Breaky-Bricks">
                     <div  className="cellHeader">
                         <div className="imgContainer">
                             <img style={{ transform: 'translateX(-50%) translateY(-42.5%) scale(1.15)' }} src={BB} alt="Breaky Bricks's gameplay"></img>
@@ -74,10 +74,10 @@ export default function ProjectsSection() {
                     </div>
                     <div className="cellContent">
                         <h2 className="title">Breaky Brick</h2>
-                        <p className="description">Another Brick Breaker genre</p>
+                        <p className="description">Another replica of the famous Brick Breaker genre. I followed MDN Web Docs's tutorial to make this game and I customized the game a bit to my preference.</p>
                     </div>
-                </div>
-                <div className="cell">
+                </a>
+                <a className="cell" href="https://kiteryukatori.github.io/Playground">
                     <div  className="cellHeader">
                         <div className="imgContainer">
                             <img style={{ transform: 'translateX(-50%) translateY(-50%) scale(0.75)' }} src={Playground} alt="Interactive Playground"></img>
@@ -85,9 +85,9 @@ export default function ProjectsSection() {
                     </div>
                     <div className="cellContent">
                         <h2 className="title">Interactive Playground</h2>
-                        <p className="description">A Gallery of buttons with animations that I have migrated other people's idea and implement them into mine.</p>
+                        <p className="description">A Gallery of buttons with animations that I have seen from other people's buttons and implemented them into mine.</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>  
     )

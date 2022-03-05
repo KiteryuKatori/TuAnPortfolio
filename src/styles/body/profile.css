@@ -80,11 +80,13 @@
 
 
 #extraInfo {
-    width: 35%;
-    margin: 36px;
-    min-width: 420px;
+    width: 60%;
+    margin: auto;
+    margin-top: 36px;
+    min-width: 480px;
     display: flex;
     flex-direction: column;
+    /* background-color: crimson; */
 }
 
 #extraInfo button {
@@ -142,10 +144,28 @@
 }
 
 #extraInfo .wrapper {
-    height: fit-content;
+    /* background-color: brown; */
+    width: 520px;
+    padding: 16px;
+    padding-top: 24px;
+    margin: auto;
     transition: 300ms;
+    text-align: justify;
 }
 
 #extraInfo .wrapper p {
     margin: 12px;
+}
+
+#extraInfo .skill {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(153, 168, 255);
+}
+
+#extraInfo .dbf {
+    color: chocolate;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
 }

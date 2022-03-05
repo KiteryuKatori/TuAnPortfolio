@@ -50,6 +50,7 @@
     border-radius: 12px;
     cursor: pointer;
     transition: 200ms;
+    text-decoration: none;
 }
 
 .pjContainer .cell:hover {
@@ -77,6 +78,8 @@
 .pjContainer .cell .cellContent h2 {
     margin-bottom: 4px;
     text-align: center;
-    
 }
 
+.pjContainer .cell .cellContent p {
+    font-size: 16px;
+}
