@@ -8,7 +8,7 @@ export default function ProfileSection() {
     return (
         <div className="Section" id="Profile">
             <BasicInfo />
-            <ExtraInfo />
+            {/* <ExtraInfo /> */}
         </div>  
     )
 }

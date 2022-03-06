@@ -9,6 +9,8 @@
     box-sizing: border-box;
     color: #fff;
     font-family: 'Nunito';
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
 }
 
 body {
@@ -30,4 +32,27 @@ p {
 
 .spaces {
     color: #ffffff00;
+}
+
+
+.notYet {
+    position: relative;
+}
+
+.notYet::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 0px;
+    height: 0px;
+    left: -40px;
+    background-color: black;
+}
+
+.notYet:hover:after {
+    content: "This feature is unavailable at the moment.";
+    width: 200px;
+    height: 40px;
+    padding: 12px;
+    z-index: 10;
 }

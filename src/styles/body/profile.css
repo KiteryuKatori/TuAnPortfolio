@@ -1,10 +1,7 @@
 #Profile {
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
-}
-
-#basicInfo {
-
 }
 
 #basicInfo .imgContainer {
@@ -66,7 +63,7 @@
 
 #basicInfo .txtContainer .description {
     /* background-color: #a1e7c6; */
-    padding: 8px 12px;
+    padding: 16px;
     line-height: 24px;
 }
 
@@ -168,4 +165,40 @@
     font-weight: 700;
     font-size: 22px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1200px)  {
+    #Profile {
+        padding-top: 120px;
+    }
+
+    #basicInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #basicInfo .txtContainer {
+        background-color: #00000000;
+        width: 75%;
+        padding: 32px;
+        max-width: 800px;
+        vertical-align: sub;
+        margin-left: 0px;
+    }
+
+    #basicInfo .txtContainer .title {
+        position: relative;
+        padding: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #basicInfo .txtContainer .title h1 {
+        margin-left: 0px;
+    }
+
+    #basicInfo .txtContainer .title::after {
+        left: 0;
+    }
 }

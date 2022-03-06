@@ -8,7 +8,7 @@ export default function Body() {
     return (
         <div id="body">
             <ProfileSection />
-            {/* <SkillsandExperiencesSection /> */}
+            <SkillsandExperiencesSection />
             <ProjectsSection />
         </div>    
     )

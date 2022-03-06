@@ -23,7 +23,7 @@ export default function ProjectsSection() {
     return (
         <div className="Section" id="Projects">
             <div className="SectionTitle">
-                    <h1>websites</h1>
+                    <h1>projects</h1>
             </div>
 
             <ul className="sortBtnList">

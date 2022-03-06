@@ -7,7 +7,7 @@ export default function BasicInfo() {
     return (
         <div id="basicInfo">
             <div className="imgContainer">
-                <img src="https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.15752-9/250727039_1991284891035495_412886337879382020_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=XgtOG17kJT8AX_RV_ss&_nc_ht=scontent.fsgn5-14.fna&oh=03_AVKV4LvMK1jO_BhdtsIS-oR0PW1CwHo7o2UCaucUud5UtA&oe=623E16FE" alt="Tuấn Anh"></img>
+                <img className="notYetPic" src="https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.15752-9/250727039_1991284891035495_412886337879382020_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=XgtOG17kJT8AX_RV_ss&_nc_ht=scontent.fsgn5-14.fna&oh=03_AVKV4LvMK1jO_BhdtsIS-oR0PW1CwHo7o2UCaucUud5UtA&oe=623E16FE" alt="Tuấn Anh"></img>
             </div>
             <div className="txtContainer">
                 <div className="title">
@@ -21,7 +21,7 @@ export default function BasicInfo() {
                         <h3>And I am currently:</h3>
                         <p><AiFillInfoCircle />A freshman at Ho Chi Minh's University of Education, major in Information Technology.</p>
                         <p><AiFillInfoCircle />A self-taught developer.</p>
-                        <p><AiFillInfoCircle />A friendly dude who wanted to expand his range of relationship.</p>
+                        {/* <p><AiFillInfoCircle />A friendly dude who wanted to expand his range of relationship.</p> */}
                     </div>
                 </IconContext.Provider>
             </div>
