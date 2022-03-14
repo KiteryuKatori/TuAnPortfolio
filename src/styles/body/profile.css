@@ -201,4 +201,10 @@
     #basicInfo .txtContainer .title::after {
         left: 0;
     }
+
+    #basicInfo .txtContainer .description > p {
+        position: relative;
+        padding: 12px;
+    }
 }
+

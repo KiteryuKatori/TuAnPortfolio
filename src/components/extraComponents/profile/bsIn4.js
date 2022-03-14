@@ -21,6 +21,7 @@ export default function BasicInfo() {
                         <h3>And I am currently:</h3>
                         <p><AiFillInfoCircle />A freshman at Ho Chi Minh's University of Education, major in Information Technology.</p>
                         <p><AiFillInfoCircle />A self-taught developer.</p>
+                        <p><AiFillInfoCircle />I'll leave this for future me to fill the shits.</p>
                         {/* <p><AiFillInfoCircle />A friendly dude who wanted to expand his range of relationship.</p> */}
                     </div>
                 </IconContext.Provider>
