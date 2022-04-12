@@ -4,6 +4,13 @@
     flex-direction: column;
 }
 
+<<<<<<< HEAD
+=======
+#basicInfo {
+    
+}
+
+>>>>>>> f1834b67edfc49380e6d27c71982132879fd51a8
 #basicInfo .imgContainer {
     display: inline-block;
     min-width: 320px;
