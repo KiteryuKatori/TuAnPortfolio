@@ -4,13 +4,13 @@
     flex-direction: column;
 }
 
-<<<<<<< HEAD
-=======
+
+
 #basicInfo {
     
 }
 
->>>>>>> f1834b67edfc49380e6d27c71982132879fd51a8
+
 #basicInfo .imgContainer {
     display: inline-block;
     min-width: 320px;
@@ -23,6 +23,7 @@
 
 #basicInfo .imgContainer img {
     height: 440px;
+    width: 440px;
     transform: translateX(-12.5%) translateY(-15%);
 }
 
@@ -208,10 +209,9 @@
     #basicInfo .txtContainer .title::after {
         left: 0;
     }
-
+    
     #basicInfo .txtContainer .description > p {
         position: relative;
         padding: 12px;
     }
 }
-
