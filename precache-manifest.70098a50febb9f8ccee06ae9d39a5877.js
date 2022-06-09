@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "5553488aa39d7dc46f3c",
-    "url": "/TuAnPortfolio/static/css/main.691b70aa.chunk.css"
+    "revision": "11df8164a06d72dbb23e",
+    "url": "/TuAnPortfolio/static/css/main.f0658d68.chunk.css"
   },
   {
-    "revision": "5553488aa39d7dc46f3c",
-    "url": "/TuAnPortfolio/static/js/main.5553488a.chunk.js"
+    "revision": "11df8164a06d72dbb23e",
+    "url": "/TuAnPortfolio/static/js/main.944efa37.chunk.js"
   },
   {
-    "revision": "43d454abd83efd85524d",
-    "url": "/TuAnPortfolio/static/js/1.43d454ab.chunk.js"
+    "revision": "a98bfb77658d273bc962",
+    "url": "/TuAnPortfolio/static/js/runtime~main.b7d0a412.js"
   },
   {
-    "revision": "5a0faf0ae4b5988553d7",
-    "url": "/TuAnPortfolio/static/js/runtime~main.5a0faf0a.js"
+    "revision": "f4119644e27b1729c3b2",
+    "url": "/TuAnPortfolio/static/js/2.e88155c0.chunk.js"
   },
   {
     "revision": "67606e0695c2826728e6af4be5724154",
@@ -36,7 +36,11 @@ self.__precacheManifest = [
     "url": "/TuAnPortfolio/static/media/Playground.2f2961e8.png"
   },
   {
-    "revision": "c0783a8e11713e3de2591c28b3f45e70",
+    "revision": "d3b4695e6ef25f73238676b86a54a096",
+    "url": "/TuAnPortfolio/static/media/sun.d3b4695e.jpg"
+  },
+  {
+    "revision": "0402a2575a0a01668c4462673af96a21",
     "url": "/TuAnPortfolio/index.html"
   }
 ];
