@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "11df8164a06d72dbb23e",
+    "revision": "859db881214b98f3ac16",
     "url": "/TuAnPortfolio/static/css/main.f0658d68.chunk.css"
   },
   {
-    "revision": "11df8164a06d72dbb23e",
-    "url": "/TuAnPortfolio/static/js/main.944efa37.chunk.js"
+    "revision": "859db881214b98f3ac16",
+    "url": "/TuAnPortfolio/static/js/main.4171898f.chunk.js"
   },
   {
     "revision": "a98bfb77658d273bc962",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/TuAnPortfolio/static/media/sun.d3b4695e.jpg"
   },
   {
-    "revision": "0402a2575a0a01668c4462673af96a21",
+    "revision": "79c7dbbf9be0fa7415d17f4b6bfc57d4",
     "url": "/TuAnPortfolio/index.html"
   }
 ];
