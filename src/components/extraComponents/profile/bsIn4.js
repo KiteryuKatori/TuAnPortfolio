@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import {AiFillInfoCircle} from "react-icons/ai";
 import { IconContext } from "react-icons";
 import avatar from "../../../imgs/Avts/sun.jpg";
@@ -9,7 +9,7 @@ export default function BasicInfo() {
         <div id="basicInfo">
             <div className="imgContainer">
                 {/* <img className="notYetPic" src="../../imgs/Avts/sun.jpg" alt="Tuấn Anh"></img> */}
-                <img className="notYetPic" src="avatar" alt="Tuấn Anh"></img>
+                <img className="notYetPic" src={avatar} alt="Tuấn Anh"></img>
             </div>
             <div className="txtContainer">
                 <div className="title">
@@ -21,11 +21,11 @@ export default function BasicInfo() {
                     >
                     <div className="description">
                         <h3>And I am currently:</h3>
-                        <p><AiFillInfoCircle />A solo Website Developer of <a className="dbf" href="https://donationboxfoundation.com">Donation Box Foundation</a>.</p>
-                        <p><AiFillInfoCircle />A freshman at Ho Chi Minh's University of Education, major in Information Technology.</p>
-                        <p><AiFillInfoCircle />A self-taught developer.</p>
-                        <p><AiFillInfoCircle />I'll leave this for future me to fill the shits.</p>
-                        {/* <p><AiFillInfoCircle />A friendly dude who wanted to expand his range of relationship.</p> */}
+                        <p><AiFillInfoCircle className="infoIcon" />A solo Website Developer of <a className="dbf" href="https://donationboxfoundation.com">Donation Box Foundation</a>.</p>
+                        <p><AiFillInfoCircle className="infoIcon" />A somophore at Ho Chi Minh's University of Education, major in Information Technology.</p>
+                        <p><AiFillInfoCircle className="infoIcon" />A self-taught developer.</p>
+                        <p><AiFillInfoCircle className="infoIcon" />And a freelance multi-purpose assistant for a small company</p>
+                        {/* <p><AiFillInfoCircle className="infoIcon" />A friendly dude who wanted to expand his range of relationship.</p> */}
                     </div>
                 </IconContext.Provider>
             </div>

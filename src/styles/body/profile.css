@@ -37,6 +37,12 @@
     vertical-align: sub;
 }
 
+#basicInfo .infoIcon {
+    /* background-color: rgb(163, 234, 252); */
+    /* margin: 4px; */
+    margin: 4px 8px 0 8px;
+}
+
 /* 1180 width will be wrapped */
 
 #basicInfo .txtContainer .title {
