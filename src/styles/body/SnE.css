@@ -5,12 +5,17 @@
 
 #SnE .container {
     background-color: brown;
-    width: 80%;
+    width: 100%;
     padding: 36px;
     margin-top: 20px;
 }
 
 #SnE .skill {
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#SnE p.skillList {
+    background-color: rgb(219, 166, 166);
+    /* text-align: justify; */
 }

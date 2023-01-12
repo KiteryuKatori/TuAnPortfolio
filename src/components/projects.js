@@ -17,7 +17,9 @@ import Playground from "../imgs/PJs/Playground.png";
   
 //   function ComponentWithTransition() {
 //     return <div style={divStyle}>This should work cross-browser</div>;
-//   }
+//   }a
+
+
 
 export default function ProjectsSection() {
     return (

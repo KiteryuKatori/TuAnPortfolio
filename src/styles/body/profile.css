@@ -22,9 +22,14 @@
 }
 
 #basicInfo .imgContainer img {
-    height: 440px;
-    width: 440px;
-    transform: translateX(-12.5%) translateY(-15%);
+    height: 460px;
+    width: 460px;
+    transform: translateX(-10%) translateY(-15%);
+}
+
+#basicInfo .myPic {
+    /* margin-left: 16px; */
+    object-fit: cover;
 }
 
 #basicInfo .txtContainer {
@@ -85,6 +90,7 @@
     position: relative;
     padding: 12px 16px;
 }
+
 
 
 
