@@ -1,19 +1,19 @@
 {
-  "main.css": "/TuAnPortfolio/static/css/main.f0658d68.chunk.css",
-  "main.js": "/TuAnPortfolio/static/js/main.5a9e3a4a.chunk.js",
-  "main.js.map": "/TuAnPortfolio/static/js/main.5a9e3a4a.chunk.js.map",
-  "runtime~main.js": "/TuAnPortfolio/static/js/runtime~main.b7d0a412.js",
-  "runtime~main.js.map": "/TuAnPortfolio/static/js/runtime~main.b7d0a412.js.map",
-  "static/js/2.e88155c0.chunk.js": "/TuAnPortfolio/static/js/2.e88155c0.chunk.js",
-  "static/js/2.e88155c0.chunk.js.map": "/TuAnPortfolio/static/js/2.e88155c0.chunk.js.map",
-  "index.html": "/TuAnPortfolio/index.html",
-  "precache-manifest.06536424efc473bc40ce6bf389981039.js": "/TuAnPortfolio/precache-manifest.06536424efc473bc40ce6bf389981039.js",
-  "service-worker.js": "/TuAnPortfolio/service-worker.js",
-  "static/css/main.f0658d68.chunk.css.map": "/TuAnPortfolio/static/css/main.f0658d68.chunk.css.map",
-  "static/media/BB.png": "/TuAnPortfolio/static/media/BB.96c86bbd.png",
-  "static/media/DBFLogo.png": "/TuAnPortfolio/static/media/DBFLogo.67606e06.png",
-  "static/media/Loto.png": "/TuAnPortfolio/static/media/Loto.d85b8e0c.png",
-  "static/media/Playground.png": "/TuAnPortfolio/static/media/Playground.2f2961e8.png",
-  "static/media/TTT.png": "/TuAnPortfolio/static/media/TTT.084c50e1.png",
-  "static/media/sun.jpg": "/TuAnPortfolio/static/media/sun.d3b4695e.jpg"
+  "files": {
+    "main.css": "/TuAnPortfolio/static/css/main.febdd6cf.css",
+    "main.js": "/TuAnPortfolio/static/js/main.c0cf4ed3.js",
+    "static/media/dbflogo.png": "/TuAnPortfolio/static/media/dbflogo.73a8d401726e23c7fd7b.png",
+    "static/media/playground.png": "/TuAnPortfolio/static/media/playground.b48bec3e264e10caffdc.png",
+    "static/media/lama1.jpg": "/TuAnPortfolio/static/media/lama1.ca1cef682172315c6f2f.jpg",
+    "static/media/loto.png": "/TuAnPortfolio/static/media/loto.73502cb3a14e6b050b1a.png",
+    "static/media/ttt.png": "/TuAnPortfolio/static/media/ttt.aa409b9c68a18cf18cbd.png",
+    "static/media/bb.png": "/TuAnPortfolio/static/media/bb.3819281853e895886a2e.png",
+    "index.html": "/TuAnPortfolio/index.html",
+    "main.febdd6cf.css.map": "/TuAnPortfolio/static/css/main.febdd6cf.css.map",
+    "main.c0cf4ed3.js.map": "/TuAnPortfolio/static/js/main.c0cf4ed3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.febdd6cf.css",
+    "static/js/main.c0cf4ed3.js"
+  ]
 }
