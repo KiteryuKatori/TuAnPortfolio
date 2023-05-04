@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@import "header.css";
+@import "body.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Nunito';
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+body {
+    background-color: #2c303d;
+}
+
+p {
+    font-size: 20px;
+}
+
+.Section {
+    background-color: rgba(139, 248, 154, 0);
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.spaces {
+    color: #ffffff00;
+}
+
+
+.notYet {
+    position: relative;
+}
+
+.notYet::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 0px;
+    height: 0px;
+    left: -60px;
+    /* transform: translateX(-50%); */
+    background-color: black;
+}
+
+.notYet:hover:after {
+    content: "This feature is unavailable at the moment.";
+    width: 200px;
+    height: 40px;
+    padding: 12px;
+    z-index: 10;
+    animation: riseup 0.25s;
+    transform: translateY(12.5%);
+}
+
+/* KEYFRAMES SECTION */
+@keyframes riseup {
+    from {
+        transform: translateY(25%);
+    }
+    
+    to {
+        transform: translateY(12.5%);
+    }
+}

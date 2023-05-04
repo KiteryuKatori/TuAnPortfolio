@@ -1,0 +1,85 @@
+#Projects {
+    /* background-color: cadetblue; */
+}
+
+.sortBtnList {
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 440px;
+    list-style-type: none;
+    padding: 24px 0px;
+}
+
+.sortBtnList .sortBtn button {
+    background-color: #2e5061;
+    text-align: center;
+    border: none;
+    width: 100px;
+    padding: 8px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 250ms;
+    font-size: 20px;
+}
+
+.sortBtnList .sortBtn button:hover {
+    background-color: rgb(142, 153, 255);
+
+}
+
+.pjContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 24px;
+    max-width: 1160px;
+}
+
+.pjContainer .cell {
+    background-color: rgb(4, 22, 48);
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* max-width: 560px;
+    height: 420px; */
+    max-width: 360px;
+    height: 400px;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+.pjContainer .cell:hover {
+    background-color: rgb(61, 89, 129);
+}
+
+.pjContainer .cell .cellHeader {
+    background-color: rgb(24, 48, 82);
+    height: 60%;
+    margin-bottom: 20px;
+    border-radius: 12px 12px 0px 0px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.pjContainer .cell .cellHeader img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.pjContainer .cell .cellContent h2 {
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.pjContainer .cell .cellContent p {
+    font-size: 16px;
+}
