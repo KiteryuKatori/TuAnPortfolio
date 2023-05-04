@@ -1,11 +1,11 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 
-import DBFLogo from "../imgs/PJs/DBFLogo.png";
-import Loto from "../imgs/PJs/Loto.png";
-import TTT from "../imgs/PJs/TTT.png";
-import BB from "../imgs/PJs/BB.png";
-import Playground from "../imgs/PJs/Playground.png";
+import DBFLogo from "../imgs/PJs/dbflogo.png";
+import Loto from "../imgs/PJs/loto.png";
+import TTT from "../imgs/PJs/ttt.png";
+import BB from "../imgs/PJs/bb.png";
+import Playground from "../imgs/PJs/playground.png";
 
 // import BasicInfo from "./extraComponents/profile/bsIn4";
 // import ExtraInfo from "./extraComponents/profile/extIn4";
