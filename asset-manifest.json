@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/TuAnPortfolio/static/css/main.febdd6cf.css",
-    "main.js": "/TuAnPortfolio/static/js/main.433b3de0.js",
-    "static/media/dbflogo.png": "/TuAnPortfolio/static/media/dbflogo.73a8d401726e23c7fd7b.png",
-    "static/media/playground.png": "/TuAnPortfolio/static/media/playground.b48bec3e264e10caffdc.png",
-    "static/media/lama1.jpg": "/TuAnPortfolio/static/media/lama1.ca1cef682172315c6f2f.jpg",
-    "static/media/loto.png": "/TuAnPortfolio/static/media/loto.73502cb3a14e6b050b1a.png",
-    "static/media/ttt.png": "/TuAnPortfolio/static/media/ttt.aa409b9c68a18cf18cbd.png",
-    "static/media/bb.png": "/TuAnPortfolio/static/media/bb.3819281853e895886a2e.png",
-    "index.html": "/TuAnPortfolio/index.html",
-    "main.febdd6cf.css.map": "/TuAnPortfolio/static/css/main.febdd6cf.css.map",
-    "main.433b3de0.js.map": "/TuAnPortfolio/static/js/main.433b3de0.js.map"
+    "main.css": "/Marco/static/css/main.febdd6cf.css",
+    "main.js": "/Marco/static/js/main.43c80ffa.js",
+    "static/media/dbflogo.png": "/Marco/static/media/dbflogo.73a8d401726e23c7fd7b.png",
+    "static/media/playground.png": "/Marco/static/media/playground.b48bec3e264e10caffdc.png",
+    "static/media/lama1.jpg": "/Marco/static/media/lama1.ca1cef682172315c6f2f.jpg",
+    "static/media/loto.png": "/Marco/static/media/loto.73502cb3a14e6b050b1a.png",
+    "static/media/ttt.png": "/Marco/static/media/ttt.aa409b9c68a18cf18cbd.png",
+    "static/media/bb.png": "/Marco/static/media/bb.3819281853e895886a2e.png",
+    "index.html": "/Marco/index.html",
+    "main.febdd6cf.css.map": "/Marco/static/css/main.febdd6cf.css.map",
+    "main.43c80ffa.js.map": "/Marco/static/js/main.43c80ffa.js.map"
   },
   "entrypoints": [
     "static/css/main.febdd6cf.css",
-    "static/js/main.433b3de0.js"
+    "static/js/main.43c80ffa.js"
   ]
 }
